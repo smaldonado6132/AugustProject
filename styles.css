@@ -182,4 +182,19 @@ body {
     background-color: #FFF9C4;
     padding: 10px;
 }
+.back-btn {
+    background-color: #FFD6E8;
+    color: #3A3A3A;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    opacity: 0.9;
+}
 
