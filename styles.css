@@ -172,4 +172,14 @@ body {
     color: #4A5568;
     font-weight: bold;
 }
+.card-full-img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid #E6DFA8;
+    background-color: #FFF9C4;
+    padding: 10px;
+}
 
