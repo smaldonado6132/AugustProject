@@ -190,11 +190,38 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     transition: 0.2s;
 }
 
 .back-btn:hover {
     opacity: 0.9;
+}
+
+.memory-page {
+    text-align: center;
+    padding: 40px;
+}
+
+.memory-title {
+    font-size: 32px;
+    color: #5A6F8C;
+    margin-bottom: 10px;
+}
+
+.memory-text {
+    font-size: 18px;
+    color: #4A5568;
+    margin-bottom: 20px;
+}
+
+.memory-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
 }
 
