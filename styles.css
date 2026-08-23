@@ -1,75 +1,121 @@
-/** Rectangles **/
-
-.rectangle{
-    -fx-fill: #FFF9C4;
-    -fx-stroke: #E6DFA8;
-    -fx-stroke-width: 2;
+/* ============================
+   GLOBAL RESET & BASE
+============================ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFDF7;
 }
 
-.nextButton-btn{
-   -fx-background-color: #FFD6E8;
-    -fx-text-fill: #3A3A3A;
-    -fx-background-radius: 20;
-    -fx-font-size: 18px;
-    -fx-pref-width: 200px;
-    -fx-pref-height: 60px; 
-}
-
-
+/* ============================
+   SCREEN ROOT (main layout)
+============================ */
 .screen-root {
-    -fx-background-color: #FFFDF7;
+    background-color: #FFFDF7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/* ============================
+   TITLE TEXT
+============================ */
 .title-text {
-    -fx-font-size: 36px;
-    -fx-font-weight: bold;
-    -fx-text-fill: #5A6F8C;
+    font-size: 36px;
+    font-weight: bold;
+    color: #5A6F8C;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
+/* ============================
+   BODY TEXT
+============================ */
 .body-text {
-    -fx-font-size: 18px;
-    -fx-text-fill: #4A5568;
+    font-size: 18px;
+    color: #4A5568;
 }
 
+/* ============================
+   BUTTONS
+============================ */
+.nextButton-btn {
+    background-color: #FFD6E8;
+    color: #3A3A3A;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
+.nextButton-btn:hover {
+    opacity: 0.9;
+}
+
+/* ============================
+   RECTANGLES (converted)
+============================ */
 .rectangle {
-    -fx-fill: #FFF9C4;
-    -fx-stroke: #E6DFA8;
-    -fx-stroke-width: 2;
+    background-color: #FFF9C4;
+    border: 2px solid #E6DFA8;
+    border-radius: 8px;
+    padding: 20px;
 }
 
+/* ============================
+   PASSWORD FIELD (converted)
+============================ */
 .password-field {
-    -fx-background-color: #FFF9C4;
-    -fx-background-radius: 10;
-    -fx-border-color: #E6DFA8;
-    -fx-border-width: 2;
-    -fx-border-radius: 10;
-    -fx-padding: 8;
-    -fx-font-size: 18px;
-    -fx-text-fill: #4A5568;
+    background-color: #FFF9C4;
+    border: 2px solid #E6DFA8;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 18px;
+    color: #4A5568;
 }
+
+/* ============================
+   DIALOG PANE (converted)
+============================ */
 .dialog-pane {
-    -fx-background-color: #D6E8FF;
-    -fx-border-color: #E6DFA8;
-    -fx-border-width: 2;
-    -fx-background-radius: 15;
-    -fx-border-radius: 15;
+    background-color: #D6E8FF;
+    border: 2px solid #E6DFA8;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
 }
 
-.dialog-pane .content.label {
-    -fx-font-size: 18px;
-    -fx-text-fill: #4A5568;
+.dialog-pane .content-label {
+    font-size: 18px;
+    color: #4A5568;
 }
-.dialog-pane .header-panel .label {
-    -fx-font-size: 20px;
-    -fx-text-fill: #5A6F8C;   
-    -fx-font-weight: bold;
+
+.dialog-pane .header-label {
+    font-size: 20px;
+    color: #5A6F8C;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
 .dialog-pane .button {
-    -fx-background-color: #FFD6E8;
-    -fx-text-fill: #3A3A3A;
-    -fx-background-radius: 20;
-    -fx-font-size: 16px;
+    background-color: #FFD6E8;
+    color: #3A3A3A;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-
+.dialog-pane .button:hover {
+    opacity: 0.9;
+}
