@@ -1,0 +1,75 @@
+/** Rectangles **/
+
+.rectangle{
+    -fx-fill: #FFF9C4;
+    -fx-stroke: #E6DFA8;
+    -fx-stroke-width: 2;
+}
+
+.nextButton-btn{
+   -fx-background-color: #FFD6E8;
+    -fx-text-fill: #3A3A3A;
+    -fx-background-radius: 20;
+    -fx-font-size: 18px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 60px; 
+}
+
+
+.screen-root {
+    -fx-background-color: #FFFDF7;
+}
+
+.title-text {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5A6F8C;
+}
+
+.body-text {
+    -fx-font-size: 18px;
+    -fx-text-fill: #4A5568;
+}
+
+
+.rectangle {
+    -fx-fill: #FFF9C4;
+    -fx-stroke: #E6DFA8;
+    -fx-stroke-width: 2;
+}
+
+.password-field {
+    -fx-background-color: #FFF9C4;
+    -fx-background-radius: 10;
+    -fx-border-color: #E6DFA8;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-padding: 8;
+    -fx-font-size: 18px;
+    -fx-text-fill: #4A5568;
+}
+.dialog-pane {
+    -fx-background-color: #D6E8FF;
+    -fx-border-color: #E6DFA8;
+    -fx-border-width: 2;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+
+.dialog-pane .content.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #4A5568;
+}
+.dialog-pane .header-panel .label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #5A6F8C;   
+    -fx-font-weight: bold;
+}
+.dialog-pane .button {
+    -fx-background-color: #FFD6E8;
+    -fx-text-fill: #3A3A3A;
+    -fx-background-radius: 20;
+    -fx-font-size: 16px;
+}
+
+
