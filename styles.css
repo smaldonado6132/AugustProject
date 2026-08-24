@@ -202,26 +202,31 @@ body {
 
 .memory-page {
     text-align: center;
-    padding: 40px;
+    padding-top: 80px;   /* pushes everything down from the top */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .memory-title {
     font-size: 32px;
     color: #5A6F8C;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .memory-text {
     font-size: 18px;
     color: #4A5568;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .memory-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;           /* spacing between button + image */
+    margin-top: 20px;
+}
+
     margin-top: 20px;
 }
 
