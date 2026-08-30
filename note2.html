@@ -5,10 +5,37 @@
     <title>Boba Note</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+    <!-- Back Button -->
     <button class="back-btn" onclick="location.href='boba.html'">Back</button>
-    <div class="note-root">
-        <div class="note-card note2-bg">
+
+    <div class="note2-root">
+
+        <!-- Receipt Background -->
+        <div class="receipt-card">
+            <div class="receipt-inner">
+                <h2>Z’s Bubble Tea</h2>
+                <p class="receipt-sub">Southgate, MI • Order #A11</p>
+
+                <p class="receipt-line">------------------------------</p>
+
+                <p class="receipt-item">• Brown Sugar Boba .......... $6.50</p>
+                <p class="receipt-item">• Taro Milk Tea ............... $5.75</p>
+
+                <p class="receipt-line">------------------------------</p>
+
+                <p class="receipt-barcode">|| ||| |||| || ||||| ||| | ||||</p>
+                <p class="receipt-time">06/11 — 5:44 PM</p>
+            </div>
+        </div>
+
+        <!-- Boba Doodle -->
+        <img src="bubble.png" class="boba-doodle" alt="Boba Doodle">
+
+        <!-- Paper Note Card -->
+        <div class="note2-card">
             <div class="note2-inner">
                 <p>
                     There are many things that have significance to our relationship that would go unnoticed to any one else,
@@ -27,6 +54,11 @@
                 </p>
             </div>
         </div>
+
+        <!-- Tape -->
+        <div class="note2-tape"></div>
+
     </div>
+
 </body>
 </html>
