@@ -325,3 +325,112 @@ body {
     font-size: 22px;
     color: #8B5E3C;
 }
+
+/* ROOT */
+.note2-root {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/* RECEIPT CARD */
+.receipt-card {
+    width: 360px;
+    background-color: #FAF9F6;
+    border: 1.2px solid #D3D3D3;
+    border-radius: 6px;
+    box-shadow: 0px 8px 14px rgba(208, 207, 203, 0.7);
+
+    /* matches JavaFX translateX + translateY */
+    position: absolute;
+    right: 120px;
+    top: -40px;
+}
+
+.receipt-inner {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.receipt-inner h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.receipt-sub {
+    font-size: 12px;
+    color: #555;
+}
+
+.receipt-line {
+    font-family: Consolas, monospace;
+    color: #999;
+}
+
+.receipt-item {
+    font-family: Consolas, monospace;
+    color: #444;
+}
+
+.receipt-barcode {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    color: #444;
+}
+
+.receipt-time {
+    font-size: 12px;
+    color: #666;
+}
+
+/* BOBA DOODLE */
+.boba-doodle {
+    width: 95px;
+    position: absolute;
+
+    /* matches JavaFX translateX + translateY */
+    right: 140px;
+    top: -200px;
+
+    transform: rotate(4deg);
+}
+
+/* NOTE CARD */
+.note2-card {
+    width: 500px;
+    background-image: url('paper.png');
+    background-size: cover;
+    border-radius: 14px;
+    border: 1.5px solid #E2C9B3;
+    box-shadow: 0px 10px 18px rgba(200, 164, 122, 0.4);
+
+    /* matches JavaFX translateX + translateY */
+    position: absolute;
+    left: 120px;
+    top: 180px;
+
+    padding: 24px;
+}
+
+.note2-inner p {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: #4A2E1F;
+    line-height: 1.5;
+}
+
+/* TAPE */
+.note2-tape {
+    width: 120px;
+    height: 22px;
+    background-color: rgba(245, 233, 168, 0.75);
+    transform: rotate(-3deg);
+
+    /* matches JavaFX translateX + translateY */
+    position: absolute;
+    left: 160px;
+    top: 60px;
+}
