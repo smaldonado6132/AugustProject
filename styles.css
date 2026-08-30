@@ -240,7 +240,7 @@ body {
 
 /* MAIN PAPER BACKGROUND */
 .note1-bg {
-    width: 650px;
+    width: 750px;
     background-color: #A67C52;
     border: 1.5px solid #D1B08A;
     border-radius: 18px;
@@ -257,8 +257,8 @@ body {
     border-radius: 14px;
     border: 1.5px solid #E2C9B3;
     padding: 24px;
-    margin-left: 170px; 
-    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    margin-left: 200px; 
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
 
 /* INNER TEXT */
