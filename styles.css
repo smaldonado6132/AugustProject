@@ -231,3 +231,84 @@ body {
     margin-top: 20px;
 }
 
+/* ROOT WRAPPER */
+.note-root {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+/* MAIN PAPER BACKGROUND */
+.note1-bg {
+    width: 650px;
+    background-color: #A67C52;
+    border: 1.5px solid #D1B08A;
+    border-radius: 18px;
+    box-shadow: 0px 8px 18px rgba(200, 164, 122, 0.7);
+    padding: 40px;
+    position: relative;
+}
+
+/* JOURNAL NOTE CARD */
+.note-card {
+    width: 500px;
+    background-image: url('paper.png');
+    background-size: cover;
+    border-radius: 14px;
+    border: 1.5px solid #E2C9B3;
+    padding: 24px;
+    margin-left: 140px; /* matches JavaFX translateX */
+}
+
+/* INNER TEXT */
+.note1-inner p {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: #4A2E1F;
+    line-height: 1.5;
+}
+
+/* TICKET STACK */
+.ticket-stack {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    text-align: center;
+}
+
+/* STYLED TICKET */
+.ticket {
+    width: 250px;
+    height: 130px;
+    background-color: #FDF3D9;
+    border: 2px solid #C8A47A;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(200, 164, 122, 0.6);
+    transform: rotate(-4deg);
+    padding-top: 20px;
+}
+
+.ticket-title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #5A3E2B;
+    font-family: Georgia, serif;
+}
+
+.ticket-sub {
+    font-size: 14px;
+    color: #6B4A32;
+    font-family: Georgia, serif;
+}
+
+/* REAL TICKET IMAGE */
+.real-ticket {
+    width: 230px;
+    margin-top: 20px;
+    transform: rotate(-2deg);
+}
+
+/* TAPE */
+.ticket-tape {
+    width: 70px;
+    height
