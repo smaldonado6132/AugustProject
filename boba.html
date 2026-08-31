@@ -2,32 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Boba Memory</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Boba Note</title>
+    <link rel="stylesheet" href="styles-note2.css">
 </head>
 
 <body>
 
-    <button class="back-btn" onclick="location.href='cards.html'">Back</button>
+    <button class="back-btn" onclick="location.href='boba.html'">Back</button>
 
-    <div class="memory-page">
+    <div class="note-page">
 
-        <h1 class="memory-title">Boba Date</h1>
+        <!-- RIGHT SIDE: Receipt + Boba doodle -->
+        <div class="receipt-section">
+            <div class="receipt-card">
+                <h2>Z’s Bubble Tea</h2>
+                <p class="sub">Southgate, MI • Order #A11</p>
+                <p class="dots">------------------------------</p>
+                <p class="item">• Brown Sugar Boba .......... $6.50</p>
+                <p class="item">• Taro Milk Tea ............... $5.75</p>
+                <p class="dots">------------------------------</p>
+                <p class="barcode">|| ||| |||| || ||||| ||| | ||||</p>
+                <p class="time">06/11 — 5:44 PM</p>
+            </div>
 
-        <p class="memory-text">
-            Z’s Bubble Tea • first time trying it together • sweet moment
-        </p>
+            <img src="bubble.png" class="boba-doodle" alt="Boba Doodle">
+        </div>
 
-        <div class="memory-content">
+        <!-- LEFT SIDE: Handwritten note -->
+        <div class="note-section">
+            <div class="tape"></div>
 
-             <img src="card2.jpeg" class="card-full-img" alt="Boba Card">
-
-            <button class="nextButton-btn" onclick="location.href='note2.html'">
-                Read a Note?
-            </button>
-
-           
-
+            <div class="note-card">
+                <p>
+                    There are many things that have significance to our relationship that would go unnoticed to anyone else,
+                    boba is one of those. It's one of our things. The gym could never be that, right baby. That day in June,
+                    just hours before our feelings for each other were being addressed we went to Z’s Bubble Tea...
+                </p>
+            </div>
         </div>
 
     </div>
