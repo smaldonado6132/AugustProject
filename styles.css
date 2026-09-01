@@ -247,6 +247,7 @@ body {
     box-shadow: 0px 8px 18px rgba(200, 164, 122, 0.7);
     padding: 40px;
     position: relative;
+    margin: 0 auto;
 }
 
 /* Paper Note Card (NOW SEPARATE) */
@@ -257,10 +258,7 @@ body {
     border-radius: 14px;
     border: 1.5px solid #E2C9B3;
     padding: 24px;
-
-   
-    margin-left: 260px;
-
+    margin-left: 120px;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
 
