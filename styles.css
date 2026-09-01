@@ -300,14 +300,14 @@ body {
     font-weight: bold;
     color: #5A3E2B;
     font-family: Georgia, serif;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .ticket-sub {
     font-size: 14px;
     color: #6B4A32;
     font-family: Georgia, serif;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 /* REAL TICKET IMAGE */
