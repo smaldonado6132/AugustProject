@@ -240,12 +240,12 @@ body {
 
 /* Brown Square Background */
 .note1-bg {
-    width: 750px;
+    width: 700px;
     background-color: #A67C52;
     border: 1.5px solid #D1B08A;
     border-radius: 18px;
     box-shadow: 0px 8px 18px rgba(200, 164, 122, 0.7);
-    padding: 20px;
+    padding: 20px 20px;
     position: relative;
     margin: 40px auto;
 }
