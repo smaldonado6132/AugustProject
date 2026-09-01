@@ -344,6 +344,21 @@ body {
     padding: 60px 20px;
 }
 
+.receipt-bg {
+    width: 380px;
+    background-color: #F7F2E8;
+    border: 1.5px solid #D6C7A8;
+    border-radius: 16px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+
+    padding: 20px;
+    position: absolute;
+
+    left: 60px;     
+    top: 20px;     
+    z-index: 1;     /* sits behind receipt */
+}
+   
 .receipt-card {
     width: 300px;
     background-color: #FAF9F6;
@@ -394,6 +409,20 @@ body {
     font-size: 12px;
     color: #666;
 }
+
+.receipt-tape {
+    width: 120px;
+    height: 22px;
+    background-color: rgba(245, 233, 168, 0.75);
+    border-radius: 6px;
+    transform: rotate(-3deg);
+
+    position: absolute;
+    left: 140px;   /* ⭐ moves tape right */
+    top: -10px;    /* ⭐ moves tape up */
+    z-index: 3;    /* sits above rectangle */
+}
+
 
 .boba-doodle {
     position: absolute;
